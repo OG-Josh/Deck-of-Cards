@@ -1,0 +1,187 @@
+Script started on Tue 29 Jan 2019 01:16:40 PM PST
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m date
+Tue Jan 29 13:16:41 PST 2019
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m ls -l
+total 12
+-rwxr--r-- 1 cs1c cs1c 3200 Jan 24 20:14 [0m[01;32mcardDeckClass.cpp[0m
+-rwxr--r-- 1 cs1c cs1c 1706 Jan 24 20:14 [01;32mcardDeckClass.h[0m
+-rw-rw-r-- 1 cs1c cs1c    0 Jan 29 13:16 cardDeckClass.scr
+-rw-rw-r-- 1 cs1c cs1c  310 Jan 29 13:14 makefile
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m make all
+g++ -std=c++14 -Wall -g cardDeckClass.cpp -o cardDeckClass
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m ls -l
+total 100
+-rwxrwxr-x 1 cs1c cs1c 88160 Jan 29 13:16 [0m[01;32mcardDeckClass[0m
+-rwxr--r-- 1 cs1c cs1c  3200 Jan 24 20:14 [01;32mcardDeckClass.cpp[0m
+-rwxr--r-- 1 cs1c cs1c  1706 Jan 24 20:14 [01;32mcardDeckClass.h[0m
+-rw-rw-r-- 1 cs1c cs1c     0 Jan 29 13:16 cardDeckClass.scr
+-rw-rw-r-- 1 cs1c cs1c   310 Jan 29 13:14 makefile
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m ./cardDeckClass
+
+Initial deck
+A-Clubs
+K-Clubs
+Q-Clubs
+J-Clubs
+10-Clubs
+9-Clubs
+8-Clubs
+7-Clubs
+6-Clubs
+5-Clubs
+4-Clubs
+3-Clubs
+2-Clubs
+A-Diamonds
+K-Diamonds
+Q-Diamonds
+J-Diamonds
+10-Diamonds
+9-Diamonds
+8-Diamonds
+7-Diamonds
+6-Diamonds
+5-Diamonds
+4-Diamonds
+3-Diamonds
+2-Diamonds
+A-Hearts
+K-Hearts
+Q-Hearts
+J-Hearts
+10-Hearts
+9-Hearts
+8-Hearts
+7-Hearts
+6-Hearts
+5-Hearts
+4-Hearts
+3-Hearts
+2-Hearts
+A-Spades
+K-Spades
+Q-Spades
+J-Spades
+10-Spades
+9-Spades
+8-Spades
+7-Spades
+6-Spades
+5-Spades
+4-Spades
+3-Spades
+2-Spades
+
+Deck after first shuffle
+A-Clubs
+A-Hearts
+K-Clubs
+K-Hearts
+Q-Clubs
+Q-Hearts
+J-Clubs
+J-Hearts
+10-Clubs
+10-Hearts
+9-Clubs
+9-Hearts
+8-Clubs
+8-Hearts
+7-Clubs
+7-Hearts
+6-Clubs
+6-Hearts
+5-Clubs
+5-Hearts
+4-Clubs
+4-Hearts
+3-Clubs
+3-Hearts
+2-Clubs
+2-Hearts
+A-Diamonds
+A-Spades
+K-Diamonds
+K-Spades
+Q-Diamonds
+Q-Spades
+J-Diamonds
+J-Spades
+10-Diamonds
+10-Spades
+9-Diamonds
+9-Spades
+8-Diamonds
+8-Spades
+7-Diamonds
+7-Spades
+6-Diamonds
+6-Spades
+5-Diamonds
+5-Spades
+4-Diamonds
+4-Spades
+3-Diamonds
+3-Spades
+2-Diamonds
+2-Spades
+
+Final deck
+A-Clubs
+K-Clubs
+Q-Clubs
+J-Clubs
+10-Clubs
+9-Clubs
+8-Clubs
+7-Clubs
+6-Clubs
+5-Clubs
+4-Clubs
+3-Clubs
+2-Clubs
+A-Diamonds
+K-Diamonds
+Q-Diamonds
+J-Diamonds
+10-Diamonds
+9-Diamonds
+8-Diamonds
+7-Diamonds
+6-Diamonds
+5-Diamonds
+4-Diamonds
+3-Diamonds
+2-Diamonds
+A-Hearts
+K-Hearts
+Q-Hearts
+J-Hearts
+10-Hearts
+9-Hearts
+8-Hearts
+7-Hearts
+6-Hearts
+5-Hearts
+4-Hearts
+3-Hearts
+2-Hearts
+A-Spades
+K-Spades
+Q-Spades
+J-Spades
+10-Spades
+9-Spades
+8-Spades
+7-Spades
+6-Spades
+5-Spades
+4-Spades
+3-Spades
+2-Spades
+
+Number of perfect shuffles to get original configuration = 8
+]0;cs1c@cs1c-VirtualBox ~/Documents/CS1C/HW02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Documents/CS1C/HW02 $[00m exit
+exit
+
+Script done on Tue 29 Jan 2019 01:17:07 PM PST
